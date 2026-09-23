@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Hablemos de tu próximo proyecto. Contacta con PIXONIK y convierte tus ideas en soluciones reales."
+    >
+
+    <title>Contacto | PIXONIK</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- header -->
+
+    <header class="site-header">
+
+        <article class="container header-container">
+
+            <a
+                href="index.html"
+                class="site-logo"
+            >
+
+                <img
+                    src="assets/logo.png"
+                    alt="PIXONIK"
+                >
+
+            </a>
+
+            <nav
+                class="main-navigation"
+            >
+
+                <ul class="navigation-list">
+
+                    <li>
+                        <a href="index.html">
+                            INICIO
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="servicios.html">
+                            SERVICIOS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="proyectos.html">
+                            PROYECTOS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="sobrenosotros.html">
+                            SOBRE NOSOTROS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hablemos.html">
+                            CONTACTO
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="hablemos.html"
+                            class="button button-outline"
+                        >
+                            HABLEMOS →
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+        </article>
+
+    </header>
+
+    <main>
+
+        <!-- hero -->
+
+        <section class="contacto-principal">
+
+            <article class="container contacto-principal-container">
+
+
+                <!-- INFORMACIÓN -->
+
+                <article class="contacto-introduccion">
+
+                    <span class="contacto-eyebrow">
+                        ESTAMOS EN CONTACTO
+                    </span>
+
+
+                    <h1>
+                        HABLEMOS DE TU
+                        <br>
+                        PRÓXIMO
+                        <span class="resaltproyect">
+                            PROYECTO.
+                        </span>
+                    </h1>
+
+
+                    <p>
+                        Cuéntanos tu idea, proyecto o necesidad.
+                        Estamos listos para escucharte y ayudarte
+                        a convertirla en una solución real.
+                    </p>
+
+                </article>
+
+                <article class="contacto-formulario-contenedor">
+
+                    <form
+                        class="contacto-formulario"
+                        action="#"
+                        method="POST"
+                    >
+
+                        <article class="contacto-formulario-campo">
+
+                            <label for="contacto-nombre">
+                                NOMBRE COMPLETO *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="contacto-nombre"
+                                name="nombre"
+                                placeholder="NOMBRE COMPLETO *"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </article>
+
+                        <article class="contacto-formulario-campo">
+
+                            <label for="contacto-email">
+                                CORREO ELECTRÓNICO *
+                            </label>
+
+                            <input
+                                type="email"
+                                id="contacto-email"
+                                name="email"
+                                placeholder="CORREO ELECTRÓNICO *"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </article>
+
+                        <article class="contacto-formulario-campo">
+
+                            <label for="contacto-telefono">
+                                TELÉFONO / WHATSAPP
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="contacto-telefono"
+                                name="telefono"
+                                placeholder="TELÉFONO / WHATSAPP"
+                                autocomplete="tel"
+                            >
+
+                        </article>
+
+                        <article class="contacto-formulario-campo">
+
+                            <label for="contacto-tipo">
+                                TIPO DE PROYECTO *
+                            </label>
+
+                            <select
+                                id="contacto-tipo"
+                                name="tipo-proyecto"
+                                required
+                            >
+
+                                <option
+                                    value=""
+                                    selected
+                                    disabled
+                                >
+                                    TIPO DE PROYECTO *
+                                </option>
+
+                                <option value="service-design">
+                                    SERVICE DESIGN
+                                </option>
+
+                                <option value="identidad">
+                                    IDENTIDAD VISUAL
+                                </option>
+
+                                <option value="diseno-digital">
+                                    DISEÑO DIGITAL
+                                </option>
+
+                                <option value="audiovisual">
+                                    AUDIOVISUAL
+                                </option>
+
+                                <option value="contenido">
+                                    CONTENIDO
+                                </option>
+
+                                <option value="otro">
+                                    OTRO
+                                </option>
+
+                            </select>
+
+                        </article>
+
+                        <article
+                            class="contacto-formulario-campo contacto-formulario-mensaje"
+                        >
+
+                            <label for="contacto-mensaje">
+                                CUÉNTANOS SOBRE TU PROYECTO *
+                            </label>
+
+                            <textarea
+                                id="contacto-mensaje"
+                                name="mensaje"
+                                placeholder="Cuéntanos qué necesitas, en qué etapa estás y cómo podemos ayudarte..."
+                                required
+                            ></textarea>
+
+                        </article>
+
+                        <button
+                            type="submit"
+                            class="contacto-formulario-boton"
+                        >
+                            ENVIAR MENSAJE
+                        </button>
+
+                        <small class="contacto-formulario-seguridad">
+                            🔒 Tus datos están seguros con nosotros.
+                        </small>
+
+
+                    </form>
+
+                </article>
+
+            </article>
+
+        </section>
+
+
+        <!-- nuestra ubicacion -->
+        <section
+            class="contacto-ubicacion"
+        >
+
+            <article class="contacto-ubicacion-fondo"></article>
+
+
+            <article class="container contacto-ubicacion-container">
+
+                <article class="contacto-ubicacion-contenido">
+
+                    <span class="contacto-ubicacion-eyebrow">
+                        NUESTRA UBICACIÓN
+                    </span>
+
+
+                    <h2>
+                        TE ESPERAMOS
+                        <br>
+                        <strong>
+                            EN BOGOTÁ.
+                        </strong>
+                    </h2>
+
+
+                    <p>
+                        Contamos con un espacio creativo donde
+                        podremos reunirnos, conocernos y empezar
+                        a construir grandes ideas.
+                    </p>
+
+
+                    <a
+                        href="https://maps.google.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary contacto-maps-button"
+                    >
+                        VER EN GOOGLE MAPS →
+                    </a>
+
+                </article>
+
+            </article>
+
+        </section>
+
+
+        <!-- cta -->
+
+        <section
+            class="contacto-cta"
+        >
+
+            <article class="contacto-cta-fondo"></article>
+
+
+            <article class="container contacto-cta-container">
+
+                <article class="contacto-cta-frase">
+
+                    <h2>
+
+                        TU IDEA.
+                        <br>
+
+                        NUESTRO
+
+                        <strong>
+                            COMPROMISO.
+                        </strong>
+
+                    </h2>
+
+                </article>
+
+                <article class="contacto-cta-contenido">
+
+                    <p>
+                        Hablemos hoy mismo y descubre cómo
+                        podemos convertir tu visión en un
+                        proyecto real, creativo y con impacto.
+                    </p>
+
+
+                    <a
+                        href="#contacto-principal"
+                        class="button button-primary"
+                    >
+                        HABLEMOS DE TU PROYECTO →
+                    </a>
+
+                </article>
+
+            </article>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- footer -->
+
+    <footer class="site-footer">
+
+        <article class="container">
+
+
+            <article class="footer-main">
+
+                <section class="footer-brand">
+
+                    <a href="index.html">
+
+                        <img
+                            src="assets/logo.png"
+                            alt="PIXONIK"
+                        >
+
+                    </a>
+
+                    <p>
+                        Diseñamos con actitud, estrategia y propósito
+                        para impulsar marcas y personas.
+                    </p>
+
+                </section>
+
+                <nav
+                    class="footer-navigation"
+                    aria-label="Navegación del pie de página"
+                >
+
+                    <h2>
+                        NAVEGACIÓN
+                    </h2>
+
+                    <ul>
+
+                        <li>
+                            <a href="index.html">
+                                INICIO
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="servicios.html">
+                                SERVICIOS
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="proyectos.html">
+                                PROYECTOS
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="sobrenosotros.html">
+                                SOBRE NOSOTROS
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="hablemos.html">
+                                CONTACTO
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <section class="footer-services">
+
+                    <h2>
+                        SERVICIOS
+                    </h2>
+
+                    <ul>
+
+                        <li>
+                            IDENTIDAD VISUAL
+                        </li>
+
+                        <li>
+                            DISEÑO PARA REDES
+                        </li>
+
+                        <li>
+                            EDICIÓN DE VIDEO
+                        </li>
+
+                        <li>
+                            SONIDO Y CONTENIDO
+                        </li>
+
+                        <li>
+                            MOTION GRAPHICS
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <address class="footer-contact">
+
+                    <h2>
+                        CONTACTO
+                    </h2>
+
+                    <p>
+                        ☎ +57 300 000 0000
+                    </p>
+
+                    <p>
+                        ✉ hola@PIXONIKdg.com
+                    </p>
+
+                    <p>
+                        ⌖ BOGOTÁ, COLOMBIA
+                    </p>
+
+                </address>
+
+
+            </article>
+
+            <article class="footer-bottom">
+
+
+                <nav
+                    class="social-navigation"
+                >
+
+                    <a
+                        href="https://www.instagram.com/PIXONIK.servicedesign/"
+                    >
+                        <img
+                            src="assets/Instagram.png"
+                            alt=""
+                        >
+                    </a>
+
+                    <a
+                        href="https://www.behance.net/juliosuarez12"
+                    >
+                        <img
+                            src="assets/Behance.png"
+                            alt=""
+                        >
+                    </a>
+
+                    <a
+                        href="https://www.youtube.com/@PIXONIK.servicedesign"
+                    >
+                        <img
+                            src="assets/YouTube.png"
+                            alt=""
+                        >
+                    </a>
+
+                </nav>
+
+
+                <p>
+                    Copyright © 2026 Diseñado por PIXONIK
+                </p>
+
+
+            </article>
+
+
+        </article>
+
+    </footer>
+
+
+    <!-- javascript -->
+    <script>
+
+        const contactoMenuButton =
+            document.querySelector('.menu-toggle');
+
+        const contactoNavigation =
+            document.querySelector('.main-navigation');
+
+
+        if (
+            contactoMenuButton &&
+            contactoNavigation
+        ) {
+
+            contactoMenuButton.addEventListener(
+                'click',
+                () => {
+
+                    const abierto =
+                        contactoNavigation.classList.toggle(
+                            'is-open'
+                        );
+
+                    contactoMenuButton.setAttribute(
+                        'aria-expanded',
+                        abierto
+                    );
+
+                }
+            );
+
+
+            contactoNavigation
+                .querySelectorAll('a')
+                .forEach(link => {
+
+                    link.addEventListener(
+                        'click',
+                        () => {
+
+                            contactoNavigation.classList.remove(
+                                'is-open'
+                            );
+
+                            contactoMenuButton.setAttribute(
+                                'aria-expanded',
+                                'false'
+                            );
+
+                        }
+                    );
+
+                });
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
